@@ -57,10 +57,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="PageNewbranch.aspx" />
     <Content Include="Page_one.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PageNewbranch.aspx.cs">
+      <DependentUpon>PageNewbranch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageNewbranch.aspx.designer.cs">
+      <DependentUpon>PageNewbranch.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Page_one.aspx.cs">
       <DependentUpon>Page_one.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
